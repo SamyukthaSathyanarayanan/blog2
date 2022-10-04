@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <header> <h1>GIT Basics</h1></header>
+
+      <div class="git-img">
+        <img src="git.png"  alt="loveyourjob">
+      </div>
+  <h2>Git vs GitHub</h2>
+  <p>Git is a free, open-source software distributed version control system (DVCS) designed to manage all source code history. It can keep a history of commits, can reverse changes, and lets developers share code. Each developer must have Git installed on his or her local device to collaborate. It is commonly referred to as one of the best DevOps tools to understand and use in the developer space, and it's among the most widely used tools today. 
+  </p>
+  <p>Git is installed locally on a system, so developers can manage their source code history using their local machines as repositories. This means there is no centralized server required to use Git, and no needed internet access either. Additionally, there’s no user-management system available and a proprietary desktop GUI.</p>
+  <p>GitHub, on the other hand, is a web-based hosting service for Git repositories. It offers all of Git's DVCS SCM and has some additional features. This includes collaboration functionality like project management, support ticket management, and bug tracking. With GitHub, developers can share their repositories, access other developers' repositories, and store remote copies of repositories to serve as backups</p>
+  <p>GitHub, meanwhile, lives in the cloud, so Internet access is required. It also has a built-in user-management system and a user-friendly GUI. In addition to its main website, GitHub features a desktop version that can be installed on local computers to help synchronize code. It should be noted that Git can be used without GitHub, but GitHub cannot be used without Git.</p>
+
+  <h2>What is the difference between Git Shell and Git Bash?</h2>
+  <p>Git Bash and Git Shell are two different command line programs which allow you to interact with the underlying Git program. Bash is a Linux-based command line while Shell is a native Windows command line.</p>
+  <h2>Some of the basic operations in Git are:</h2>
+
+
+  <h2>Initialize</h2>
+  <p>git init creates an empty Git repository or re-initializes an existing one. It basically creates a .git directory with sub directories and template files. Running a git init in an existing repository will not overwrite things that are already there. It rather picks up the newly added templates.</p>
+
+  <h2>Add</h2>
+
+  <p>This command updates the index using the current content found in the working tree and then prepares the content in the staging area for the next commit.
+
+  Thus, after making changes to the working tree, and before running the commit command, you must use the add command to add any new or modified files to the index. </p>
+  <h2>Commit</h2>
+  <p>Adding commits keep track of our progress and changes as we work. Git considers each commit change point or "save point". It is a point in the project you can go back to if you find a bug, or want to make a change.
+
+    When we commit, we should always include a message.</p>
+  <h2>Pull</h2>
+  <p>The git pull command fetches changes from a remote repository to a local repository. It merges upstream changes in your local repository, which is a common task in Git based collaborations.
+
+    But first, you need to set your central repository as origin using the command:
+    
+    git remote add origin <link of your central repository></p>
+  <h2>Push</h2>
+  <p>This command transfers commits from your local repository to your remote repository. It is the opposite of pull operation.
+
+    Pulling imports commits to local repositories whereas pushing exports commits to the remote repositories .
+    
+    The use of git push is to publish your local changes to a central repository. After you've accumulated several local commits and are ready to share them with the rest of the team, you can then push them to the central repository.</p>
+</div>
+
+</body>
+</html>
